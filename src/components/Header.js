@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Menu } from 'semantic-ui-react'
+import { Menu, Icon } from 'semantic-ui-react'
 
 export default class Header extends Component {
     state = {};
@@ -18,6 +18,7 @@ export default class Header extends Component {
                     active={activeItem === 'Home page'}
                     onClick={this.handleItemClick}
                 >
+                    <Icon name={"home"}/>
                     Home page
                 </Menu.Item>
 
@@ -26,6 +27,7 @@ export default class Header extends Component {
                     active={activeItem === 'About'}
                     onClick={this.handleItemClick}
                 >
+                    <Icon name={"archive"}/>
                     About
                 </Menu.Item>
             </Menu>
