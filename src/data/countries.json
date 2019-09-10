@@ -5,8 +5,8 @@
   "Queensland" : {
     "imageLocation" : "../images/Queensland.png"
   },
-  "United-States" : {
-    "imageLocation" : "../images/United-States.png"
+  "Los Angeles" : {
+    "imageLocation" : "../images/LA.png"
   },
   "Dominican Republic" : {
     "imageLocation" : "../images/DR.png"

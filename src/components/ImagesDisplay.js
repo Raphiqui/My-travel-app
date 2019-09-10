@@ -5,7 +5,7 @@ export default class ImagesDisplay extends Component {
     state = {};
 
     render() {
-        const imageName = require("../images/PA1_mexique.png");
+        const imageName = require("../images/Cancun.png");
         return (
             <div>
                 <Image src={imageName} size='massive' verticalAlign='top' style={{width: "100%"}} />
