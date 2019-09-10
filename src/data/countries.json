@@ -1,0 +1,41 @@
+{
+  "Cancun" : {
+    "imageLocation" : "../images/Cancun.png"
+  },
+  "Queensland" : {
+    "imageLocation" : "../images/Queensland.png"
+  },
+  "Los Angeles" : {
+    "imageLocation" : "../images/LA.png"
+  },
+  "Dominican Republic" : {
+    "imageLocation" : "../images/DR.png"
+  },
+  "Egypt" : {
+    "imageLocation" : "../images/Egypt.png"
+  },
+  "Ireland" : {
+    "imageLocation" : "../images/Ireland.png"
+  },
+  "Italy" : {
+    "imageLocation" : "../images/Italy.png"
+  },
+  "Spain" : {
+    "imageLocation" : "../images/Spain.png"
+  },
+  "Cuba" : {
+    "imageLocation" : "../images/Cuba.png"
+  },
+  "Luxembourg" : {
+    "imageLocation" : "../images/Luxembourg.png"
+  },
+  "England" : {
+    "imageLocation" : "../images/England.png"
+  },
+  "Tanzania" : {
+    "imageLocation" : "../images/Tanzania.png"
+  },
+  "Amsterdam" : {
+    "imageLocation" : "../images/Amsterdam.png"
+  }
+}
