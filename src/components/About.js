@@ -1,28 +1,19 @@
 import React, {Component} from 'react';
-import { Modal, Button } from 'semantic-ui-react'
+import {Modal, Icon, Menu} from 'semantic-ui-react'
 
 export default class About extends Component {
-    state = {open: true};
-
-    close = () => this.setState({ open: false });
+    state = {};
 
     render() {
 
         return (
-            <Modal size="large" open={this.state.open}>
-                <Modal.Header>Delete Your Account</Modal.Header>
+            <Modal closeIcon trigger={<Menu.Item name='About' > <Icon name={"archive"}/> About </Menu.Item>}>
+
+                <Modal.Header>About my travel app</Modal.Header>
                 <Modal.Content>
-                    <p>Are you sure you want to delete your account</p>
+                    <p>Content is coming</p>
                 </Modal.Content>
-                <Modal.Actions>
-                    <Button negative onClose={this.close}>Exit</Button>
-                    <Button
-                        positive
-                        icon='checkmark'
-                        labelPosition='right'
-                        content='Yes'
-                    />
-                </Modal.Actions>
+
             </Modal>
         )
     }
