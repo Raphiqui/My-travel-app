@@ -1,8 +1,13 @@
 import React, {Component, createRef} from 'react';
-import { Menu, Icon } from 'semantic-ui-react'
+import { Menu, Icon, Modal, Button } from 'semantic-ui-react'
+import About from './About.js'
 
 export default class Header extends Component {
     state = {};
+
+    // close = () => this.setState({ isModalOpen: false });
+
+    // onClickAbout = () => this.setState({ isModalOpen: true});
 
     handleItemClick = (e, { name }) => {
         this.setState({ activeItem: name });
@@ -22,14 +27,15 @@ export default class Header extends Component {
                     Home page
                 </Menu.Item>
 
-                <Menu.Item
-                    name='About'
-                    active={activeItem === 'About'}
-                    onClick={this.handleItemClick}
-                >
-                    <Icon name={"archive"}/>
-                    About
-                </Menu.Item>
+                <Modal closeIcon trigger={<Menu.Item name='About' > <Icon name={"archive"}/> About </Menu.Item>}>
+
+                    <Modal.Header>About my travel app</Modal.Header>
+                    <Modal.Content>
+                        <p>Content is coming</p>
+                    </Modal.Content>
+
+                </Modal>
+
             </Menu>
         )
     }
