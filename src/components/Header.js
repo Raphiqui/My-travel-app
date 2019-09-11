@@ -1,5 +1,6 @@
-import React, {Component, createRef} from 'react';
+import React, {Component} from 'react';
 import { Menu, Icon } from 'semantic-ui-react'
+import About from './About.js'
 
 export default class Header extends Component {
     state = {};
@@ -22,14 +23,8 @@ export default class Header extends Component {
                     Home page
                 </Menu.Item>
 
-                <Menu.Item
-                    name='About'
-                    active={activeItem === 'About'}
-                    onClick={this.handleItemClick}
-                >
-                    <Icon name={"archive"}/>
-                    About
-                </Menu.Item>
+                <About/>
+
             </Menu>
         )
     }
