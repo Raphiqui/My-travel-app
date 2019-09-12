@@ -10,7 +10,6 @@ export default class App extends Component {
     handleContextRef = contextRef => this.setState({ contextRef });
 
     render() {
-        const { activeItem } = this.state;
         const { contextRef } = this.state;
 
         return (

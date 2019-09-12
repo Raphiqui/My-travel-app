@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import { Image } from 'semantic-ui-react';
+import { Image, Grid, Message, Icon } from 'semantic-ui-react';
+import 'antd/dist/antd.css';
 const _ = require('lodash');
 const imagesTemplate = require('../data/countries.json');
 
@@ -7,21 +8,28 @@ export default class ImagesDisplay extends Component {
     state = {};
 
     render() {
+
+        const imagePath = imagesTemplate['Cancun']['imageLocation'];
+
+        console.log(imagesTemplate['Cancun']['imageLocation']);
+
         return (
             <div>
-                <Image src={require('../images/Amsterdam.png')} size='massive' verticalAlign='top' style={{width: "100%"}} />
-                <Image src={require('../images/Cancun.png')} size='massive' verticalAlign='top' style={{width: "100%"}} />
-                <Image src={require('../images/Cuba.png')} size='massive' verticalAlign='top' style={{width: "100%"}} />
-                <Image src={require('../images/DR.png')} size='massive' verticalAlign='top' style={{width: "100%"}} />
-                <Image src={require('../images/Egypt.png')} size='massive' verticalAlign='top' style={{width: "100%"}} />
-                <Image src={require('../images/England.png')} size='massive' verticalAlign='top' style={{width: "100%"}} />
-                <Image src={require('../images/Ireland.png')} size='massive' verticalAlign='top' style={{width: "100%"}} />
-                <Image src={require('../images/Italy.png')} size='massive' verticalAlign='top' style={{width: "100%"}} />
-                <Image src={require('../images/LA.png')} size='massive' verticalAlign='top' style={{width: "100%"}} />
-                <Image src={require('../images/Luxembourg.png')} size='massive' verticalAlign='top' style={{width: "100%"}} />
-                <Image src={require('../images/Queensland.png')} size='massive' verticalAlign='top' style={{width: "100%"}} />
-                <Image src={require('../images/Spain.png')} size='massive' verticalAlign='top' style={{width: "100%"}} />
-                <Image src={require('../images/Tanzania.png')} size='massive' verticalAlign='top' style={{width: "100%"}} />
+                {/*<div className="test1" style={{*/}
+                    {/*// width: null,*/}
+                    {/*height: "800px",*/}
+                    {/*backgroundImage: "url("+imageUrl+")",*/}
+                    {/*backgroundRepeat: "no-repeat",*/}
+                    {/*backgroundSize: "cover"*/}
+                {/*}}>*/}
+                    {/*<Icon onClick={() => {console.log("clicked")}} size="big" name="close" style={{color: "red", paddingTop: "400px"}}/>*/}
+                {/*</div>*/}
+
+                {_.map(imagesTemplate, (item) => {
+                    return(
+                        <Image src={process.env.PUBLIC_URL + item['imageLocation']} verticalAlign='top' style={{width: "100%"}}/>
+                    )
+                })}
             </div>
         )
     }
