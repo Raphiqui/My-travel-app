@@ -1,88 +1,52 @@
 import React, {Component} from 'react';
-import { Image, Card, Button, Header, Dimmer, Segment, Icon, Grid } from 'semantic-ui-react';
+import { Image, Card, Button, Header, Item } from 'semantic-ui-react';
 import 'antd/dist/antd.css';
 const _ = require('lodash');
-const imagesTemplate = require('../data/countries.json');
 
 export default class ImagesDisplay extends Component {
 
     constructor(props) {
         super(props);
+        this.state = {
+            hovered: false,
+        }
     }
-
-    state = {
-        hovered: false,
-        currentPathToFetch: null,
-    };
-
-    test = (event) => {
-        console.log(event.target.name);
-        this.setState({hovered: true})
-    };
 
     render() {
         console.log('PROPS INTO IMAGESDISPLAY:', this.props);
-        console.log('PROPS INTO IMAGESDISPLAY:', this.props.isDetailOpen);
+
         const Background = process.env.PUBLIC_URL + '/images/bc.jpg';
         const { active, name } = this.state;
-        const content = (
-            <div>
-                <Header as='h2' inverted>
-                    {name}
-                </Header>
-
-                <Button primary>Add</Button>
-                <Button>View</Button>
-            </div>
-        );
 
         return (
             <div>
 
                 {this.props.isDetailOpen
-                    ? <Grid celled>
-                        <Grid.Row>
-                            <Grid.Column width={3}>
-                                <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
-                            </Grid.Column>
-                            <Grid.Column width={13}  textAlign="center">
-                                <p>Text</p>
-                                <p>Text</p>
-                                <p>Text</p>
-                                <p>Text</p>
-                                <p>Text</p>
-                                <p>Text</p>
-                                <p>Text</p>
-                                <p>Text</p>
-                                {/*<Image src='https://react.semantic-ui.com/images/wireframe/centered-paragraph.png' />*/}
-                            </Grid.Column>
-                        </Grid.Row>
+                    ?   <Item>
+                            <Item.Image size='massive' src={process.env.PUBLIC_URL + this.props.currentPathToFetch}/>
 
-                        <Grid.Row>
-                            <Grid.Column width={3}>
-                                <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
-                            </Grid.Column>
-                            <Grid.Column width={10}>
-                                <Image src='https://react.semantic-ui.com/images/wireframe/paragraph.png' />
-                            </Grid.Column>
-                            <Grid.Column width={3}>
-                                <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
-                            </Grid.Column>
-                        </Grid.Row>
-                    </Grid>
-                    :<Card.Group style={{backgroundImage: `url(${Background})`, backgroundSize: 'cover'}}>
-                        {_.map(imagesTemplate, (item) => {
+                            <Item.Content>
+                                <Item.Header as='a'>Header</Item.Header>
+                                <Item.Meta>Description</Item.Meta>
+                                <Item.Description>
+                                    <Image src='/images/wireframe/short-paragraph.png' />
+                                </Item.Description>
+                                <Item.Extra>Additional Details</Item.Extra>
+                            </Item.Content>
+                        </Item>
+                    :<Card.Group fluid={true} style={{backgroundColor: "#5E7FA8"}}>
+                        {_.map(this.props.imagesTemplate, (item) => {
                             return( <Card color={item['cardColor']}>
                             <Card.Content>
                             <Image
-                            floated='right'
-                            size='medium'
-                            src={process.env.PUBLIC_URL + item['imageLocation']}
+                                floated='right'
+                                size='medium'
+                                src={process.env.PUBLIC_URL + item['imageLocation']}
                             />
                             <Card.Header>{item['name']}</Card.Header>
                             <Card.Meta>{item['countryName']}</Card.Meta>
                             <Card.Description>
-                            Steve wants to add you to the group <strong>best friends</strong>
+                                {item['smallDescription']}
                             </Card.Description>
                             </Card.Content>
                             <Card.Content extra>

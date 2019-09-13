@@ -3,78 +3,91 @@
     "imageLocation" : "/images/Cancun.png",
     "name": "Cancun",
     "countryName": "Mexico",
-    "cardColor": "red"
+    "cardColor": "red",
+    "smallDescription": "Small description about my trip in Cancun is coming"
   },
   "Queensland" : {
     "imageLocation" : "/images/Queensland.png",
     "name": "Queensland",
     "countryName": "Australia",
-    "cardColor": "orange"
+    "cardColor": "orange",
+    "smallDescription": "Small description about my trip in the Queensland is coming"
   },
   "Los Angeles" : {
     "imageLocation" : "/images/LA.png",
     "name": "Los Angeles",
     "countryName": "United-States",
-    "cardColor": "yellow"
+    "cardColor": "yellow",
+    "smallDescription": "Small description about my trip in Los Angeles is coming"
   },
   "Dominican Republic" : {
     "imageLocation" : "/images/DR.png",
     "name": "Dominican Republic",
     "countryName": "Dominican Republic",
-    "cardColor": "olive"
+    "cardColor": "olive",
+    "smallDescription": "Small description about my trip in the Dominican Republic is coming"
   },
   "Egypt" : {
     "imageLocation" : "/images/Egypt.png",
     "name": "Egypt",
     "countryName": "Egypt",
-    "cardColor": "green"
+    "cardColor": "green",
+    "smallDescription": "Small description about my trip in Egypt is coming"
   },
   "Ireland" : {
     "imageLocation" : "/images/Ireland.png",
     "name": "Cork",
     "countryName": "Ireland",
-    "cardColor": "teal"
+    "cardColor": "teal",
+    "smallDescription": "Small description about my trip in Ireland is coming"
   },
   "Italy" : {
     "imageLocation" : "/images/Italy.png",
     "name": "Italy",
     "countryName": "Italy",
-    "cardColor": "blue"
+    "cardColor": "blue",
+    "smallDescription": "Small description about my trip in Italy is coming"
   },
   "Spain" : {
     "imageLocation" : "/images/Spain.png",
     "name": "Madrid",
     "countryName": "Spain",
-    "cardColor": "violet"
+    "cardColor": "violet",
+    "smallDescription": "Small description about my trip in Madrid is coming"
   },
   "Cuba" : {
     "imageLocation" : "/images/Cuba.png",
     "name": "Cuba",
     "countryName": "Cuba",
-    "cardColor": "purple"
+    "cardColor": "purple",
+    "smallDescription": "Small description about my trip in Cuba is coming"
   },
   "Luxembourg" : {
     "imageLocation" : "/images/Luxembourg.png",
     "name": "Luxembourg",
     "countryName": "Luxembourg",
-    "cardColor": "pink"
+    "cardColor": "pink",
+    "smallDescription": "Small description about my trip in Luxembourg is coming"
   },
   "England" : {
     "imageLocation" : "/images/England.png",
     "name": "London",
     "countryName": "England",
-    "cardColor": "brown"
+    "cardColor": "brown",
+    "smallDescription": "Small description about my trip in London is coming"
   },
   "Tanzania" : {
     "imageLocation" : "/images/Tanzania.png",
     "name": "Tanzania",
     "countryName": "South Africa",
-    "cardColor": "grey"
+    "cardColor": "grey",
+    "smallDescription": "Small description about my trip in Tanzania is coming"
   },
   "Amsterdam" : {
     "imageLocation" : "/images/Amsterdam.png",
     "name": "Amsterdam",
     "countryName": "Netherlands",
-    "cardColor": "red"
+    "cardColor": "red",
+    "smallDescription": "Small description about my trip in Amsterdam is coming"
   }
 }

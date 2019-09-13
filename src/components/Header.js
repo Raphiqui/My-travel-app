@@ -4,23 +4,16 @@ import About from './About.js'
 
 export default class Header extends Component {
     constructor(props) {
-        super();
-
+        super(props);
+        this.state = {};
         console.log('INTO HEADER:', props)
     }
-
-    state = {};
-
-    // handleItemClick = (e, { name }) => {
-    //     console.log('Test');
-    //     this.setState({ activeItem: name });
-    // };
 
     render() {
         // const { activeItem } = this.state;
 
         return (
-            <Menu size={"massive"}>
+            <Menu size={"massive"} style={{paddingBottom: "5px", backgroundColor: "#1A5399"}}>
                 <Menu.Item
                     name='Home page'
                     active={this.props.activeItem === 'Home page'}
