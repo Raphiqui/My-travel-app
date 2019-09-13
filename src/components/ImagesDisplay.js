@@ -1,61 +1,57 @@
 import React, {Component} from 'react';
-import { Image, Card, Button } from 'semantic-ui-react';
+import { Image, Card, Button, Header, Item } from 'semantic-ui-react';
 import 'antd/dist/antd.css';
 const _ = require('lodash');
-const imagesTemplate = require('../data/countries.json');
 
 export default class ImagesDisplay extends Component {
-    state = {
-        hovered: false,
-        isDetailOpen: false,
-        currentPathToFetch: null,
-    };
 
-    showDetails = (event) => {
-        let buffer = null;
-        _.map(imagesTemplate, (item) => {
-            if(event.target.name === item['name']){buffer = item['imageLocation']}
-        });
-
-        this.setState({
-            isDetailOpen: true,
-            currentPathToFetch: buffer,
-        });
-    };
-
-    test = (event) => {
-        console.log(event.target.name);
-        this.setState({hovered: true})
-    };
+    constructor(props) {
+        super(props);
+        this.state = {
+            hovered: false,
+        }
+    }
 
     render() {
+        console.log('PROPS INTO IMAGESDISPLAY:', this.props);
+
+        const Background = process.env.PUBLIC_URL + '/images/bc.jpg';
+        const { active, name } = this.state;
 
         return (
             <div>
 
-                {this.state.isDetailOpen
-                    ? <Image
-                        src={process.env.PUBLIC_URL + this.state.currentPathToFetch}
-                        verticalAlign='top'
-                        style={{width: "100%"}}/>
-                    :<Card.Group>
-                        {_.map(imagesTemplate, (item) => {
+                {this.props.isDetailOpen
+                    ?   <Item>
+                            <Item.Image size='massive' src={process.env.PUBLIC_URL + this.props.currentPathToFetch}/>
+
+                            <Item.Content>
+                                <Item.Header as='a'>Header</Item.Header>
+                                <Item.Meta>Description</Item.Meta>
+                                <Item.Description>
+                                    <Image src='/images/wireframe/short-paragraph.png' />
+                                </Item.Description>
+                                <Item.Extra>Additional Details</Item.Extra>
+                            </Item.Content>
+                        </Item>
+                    :<Card.Group fluid={true} style={{backgroundColor: "#5E7FA8"}}>
+                        {_.map(this.props.imagesTemplate, (item) => {
                             return( <Card color={item['cardColor']}>
                             <Card.Content>
                             <Image
-                            floated='right'
-                            size='medium'
-                            src={process.env.PUBLIC_URL + item['imageLocation']}
+                                floated='right'
+                                size='medium'
+                                src={process.env.PUBLIC_URL + item['imageLocation']}
                             />
                             <Card.Header>{item['name']}</Card.Header>
                             <Card.Meta>{item['countryName']}</Card.Meta>
                             <Card.Description>
-                            Steve wants to add you to the group <strong>best friends</strong>
+                                {item['smallDescription']}
                             </Card.Description>
                             </Card.Content>
                             <Card.Content extra>
                             <div className='ui two buttons'>
-                            <Button name={item['name']} onClick={this.showDetails} basic color='blue'>
+                            <Button name={item['name']} onClick={this.props.showDetails} basic color='blue'>
                             More details
                             </Button>
                             </div>
@@ -86,27 +82,6 @@ export default class ImagesDisplay extends Component {
                     {/*</Segment>*/}
                 {/*</div>*/}
 
-                {/*{_.map(imagesTemplate, (item) => {*/}
-                        {/*return(*/}
-                            {/*item['name'] !== 'Luxembourg'*/}
-                                {/*? null*/}
-                                {/*:*/}
-                                    {/*<Segment key={item['name']} >*/}
-                                        {/*<Dimmer active={this.state.hovered}>*/}
-                                            {/*/!*<Loader>Loading</Loader>*!/*/}
-                                            {/*<Icon name="close"/>*/}
-                                        {/*</Dimmer>*/}
-
-                                        {/*<Image*/}
-                                            {/*// onMouseOut={(event) => {console.log('OUT :', event.target.name); this.setState({hovered: false})}}*/}
-                                            {/*// onMouseOver={(event) => {console.log('IN :', event.target.name); this.setState({hovered: true})}}*/}
-                                            {/*name={item['name']}*/}
-                                            {/*src={process.env.PUBLIC_URL + item['imageLocation']}*/}
-                                            {/*verticalAlign='top'*/}
-                                            {/*style={{width: "100%"}}/>*/}
-                                    {/*</Segment>*/}
-                        {/*)*/}
-                {/*})}*/}
             </div>
         )
     }

@@ -5,6 +5,7 @@
   "dependencies": {
     "antd": "^3.23.2",
     "lodash": "^4.17.15",
+    "mdbreact": "^4.19.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.1",

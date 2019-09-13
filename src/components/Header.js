@@ -3,21 +3,21 @@ import { Menu, Icon } from 'semantic-ui-react'
 import About from './About.js'
 
 export default class Header extends Component {
-    state = {};
-
-    handleItemClick = (e, { name }) => {
-        this.setState({ activeItem: name });
-    };
+    constructor(props) {
+        super(props);
+        this.state = {};
+        console.log('INTO HEADER:', props)
+    }
 
     render() {
-        const { activeItem } = this.state;
+        // const { activeItem } = this.state;
 
         return (
-            <Menu size={"massive"}>
+            <Menu size={"massive"} style={{paddingBottom: "5px", backgroundColor: "#1A5399"}}>
                 <Menu.Item
                     name='Home page'
-                    active={activeItem === 'Home page'}
-                    onClick={this.handleItemClick}
+                    active={this.props.activeItem === 'Home page'}
+                    onClick={this.props.handleItemClick}
                 >
                     <Icon name={"home"}/>
                     Home page
