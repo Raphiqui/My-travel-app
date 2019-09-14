@@ -3,7 +3,11 @@ import {Icon, Menu} from 'semantic-ui-react'
 import { notification } from 'antd';
 
 export default class About extends Component {
-    state = {};
+    constructor(props) {
+        super(props);
+        this.state = {};
+        console.log('INTO ABOUT:', props)
+    }
 
     openNotification = () => {
         notification.open({
@@ -24,7 +28,6 @@ export default class About extends Component {
     };
 
     render() {
-
         return (
             <Menu.Item name='About' onClick={this.openNotification}> <Icon name={"archive"}/> About </Menu.Item>
         )
