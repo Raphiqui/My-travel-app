@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Image, Card, Button, Header, Item } from 'semantic-ui-react';
+import { Image, Card, Button, Item } from 'semantic-ui-react';
 import 'antd/dist/antd.css';
 const _ = require('lodash');
 
@@ -14,9 +14,6 @@ export default class ImagesDisplay extends Component {
 
     render() {
         console.log('PROPS INTO IMAGESDISPLAY:', this.props);
-
-        const Background = process.env.PUBLIC_URL + '/images/bc.jpg';
-        const { active, name } = this.state;
 
         return (
             <div>
