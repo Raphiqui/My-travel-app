@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import './App.css';
 import Header from './components/Header.js';
 import ImagesDisplay from './components/ImagesDisplay.js';
-import {Sticky} from "semantic-ui-react";
 
 const _ = require('lodash');
 const imagesTemplate = require('./data/countries.json');
@@ -36,13 +35,13 @@ export default class App extends Component {
     handleContextRef = contextRef => this.setState({ contextRef });
 
     render() {
-        const { contextRef, activeItem, isDetailOpen, itemSelected } = this.state;
+        const { activeItem, isDetailOpen, itemSelected } = this.state;
 
         return (
             <div className="App" ref={this.handleContextRef}>
-                <Sticky context={contextRef}>
-                    <Header handleItemClick={this.handleItemClick} activeItem={activeItem}/>
-                </Sticky>
+
+                <Header handleItemClick={this.handleItemClick} activeItem={activeItem}/>
+
                 <ImagesDisplay
                     itemSelected={itemSelected}
                     imagesTemplate={imagesTemplate}

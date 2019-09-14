@@ -16,7 +16,7 @@ export default class ImagesDisplay extends Component {
         console.log('PROPS INTO IMAGESDISPLAY:', this.props);
 
         return (
-            <div>
+            <div style={{paddingTop: "60px"}}>
 
                 {this.props.isDetailOpen
                     ?   <Item>

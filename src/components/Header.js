@@ -13,7 +13,7 @@ export default class Header extends Component {
         // const { activeItem } = this.state;
 
         return (
-            <Menu size={"massive"} style={{paddingBottom: "5px", backgroundColor: "#1A5399"}}>
+            <Menu fixed='top' size={"massive"} style={{backgroundColor: "#1A5399"}}>
                 <Menu.Item
                     name='Home page'
                     active={this.props.activeItem === 'Home page'}
