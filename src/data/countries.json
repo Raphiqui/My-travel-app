@@ -4,90 +4,155 @@
     "name": "Cancun",
     "countryName": "Mexico",
     "cardColor": "red",
-    "smallDescription": "Small description about my trip in Cancun is coming"
+    "smallDescription": "Pretty nice place, very nice but across the years I've seen that this place is changing to small local shops from big shopping centers like in the US.",
+    "description": "Description is coming soon !",
+    "tripDescription" : "Description about my trip is following the above description.",
+    "pathToMemorie": "",
+    "explanation": "",
+    "myTimeThere": ""
   },
   "Queensland" : {
     "imageLocation" : "/images/Queensland.png",
     "name": "Queensland",
     "countryName": "Australia",
     "cardColor": "orange",
-    "smallDescription": "Small description about my trip in the Queensland is coming"
+    "smallDescription": "The most beautiful and amazing trip I've done so far. Very dangerous country, crocodiles, octopus, casoars, snakes, spiders...",
+    "description": "Description is coming soon !",
+    "tripDescription" : "Description about my trip is following the above description.",
+    "pathToMemorie": "",
+    "explanation": "",
+    "myTimeThere": ""
   },
   "Los Angeles" : {
     "imageLocation" : "/images/LA.png",
     "name": "Los Angeles",
     "countryName": "United-States",
     "cardColor": "yellow",
-    "smallDescription": "Small description about my trip in Los Angeles is coming"
+    "smallDescription": "American dream, famous place full of luxury and rich people (very known for most of them)",
+    "description": "Description is coming soon !",
+    "tripDescription" : "Description about my trip is following the above description.",
+    "pathToMemorie": "",
+    "explanation": "",
+    "myTimeThere": ""
   },
   "Dominican Republic" : {
     "imageLocation" : "/images/DR.png",
     "name": "Dominican Republic",
     "countryName": "Dominican Republic",
     "cardColor": "olive",
-    "smallDescription": "Small description about my trip in the Dominican Republic is coming"
+    "smallDescription": "Post card paradise but in danger due to pollution.",
+    "description": "Description is coming soon !",
+    "tripDescription" : "Description about my trip is following the above description.",
+    "pathToMemorie": "",
+    "explanation": "",
+    "myTimeThere": ""
   },
   "Egypt" : {
     "imageLocation" : "/images/Egypt.png",
     "name": "Egypt",
     "countryName": "Egypt",
     "cardColor": "green",
-    "smallDescription": "Small description about my trip in Egypt is coming"
+    "smallDescription": "The place to go if you'd like to do diving session into the most beautiful sea of the world, nothing to compare with the caribbean ones.",
+    "description": "Description is coming soon !",
+    "tripDescription" : "Description about my trip is following the above description.",
+    "pathToMemorie": "",
+    "explanation": "",
+    "myTimeThere": ""
   },
   "Ireland" : {
     "imageLocation" : "/images/Ireland.png",
     "name": "Cork",
     "countryName": "Ireland",
     "cardColor": "teal",
-    "smallDescription": "Small description about my trip in Ireland is coming"
+    "smallDescription": "Don't be afraid by the rain cause you'll obviously be under, that's why this country is so green after all.",
+    "description": "Description is coming soon !",
+    "tripDescription" : "Description about my trip is following the above description.",
+    "pathToMemorie": "",
+    "explanation": "",
+    "myTimeThere": ""
   },
   "Italy" : {
     "imageLocation" : "/images/Italy.png",
     "name": "Italy",
     "countryName": "Italy",
     "cardColor": "blue",
-    "smallDescription": "Small description about my trip in Italy is coming"
+    "smallDescription": "South and North are not friendly to each other.",
+    "description": "Description is coming soon !",
+    "tripDescription" : "Description about my trip is following the above description.",
+    "pathToMemorie": "",
+    "explanation": "",
+    "myTimeThere": ""
   },
   "Spain" : {
     "imageLocation" : "/images/Spain.png",
     "name": "Madrid",
     "countryName": "Spain",
     "cardColor": "violet",
-    "smallDescription": "Small description about my trip in Madrid is coming"
+    "smallDescription": "Nice and warm, very attractive for holidays.",
+    "description": "Description is coming soon !",
+    "tripDescription" : "Description about my trip is following the above description.",
+    "pathToMemorie": "",
+    "explanation": "",
+    "myTimeThere": ""
   },
   "Cuba" : {
     "imageLocation" : "/images/Cuba.png",
     "name": "Cuba",
     "countryName": "Cuba",
     "cardColor": "purple",
-    "smallDescription": "Small description about my trip in Cuba is coming"
+    "smallDescription": "Cars are really famous there cause of their design old fashioned.",
+    "description": "Description is coming soon !",
+    "tripDescription" : "Description about my trip is following the above description.",
+    "pathToMemorie": "",
+    "explanation": "",
+    "myTimeThere": ""
   },
   "Luxembourg" : {
     "imageLocation" : "/images/Luxembourg.png",
     "name": "Luxembourg",
     "countryName": "Luxembourg",
     "cardColor": "pink",
-    "smallDescription": "Small description about my trip in Luxembourg is coming"
+    "smallDescription": "Really small, could go to one side to another in 2 hours of driving. Not known by most of people but very interesting.",
+    "description": "Description is coming soon !",
+    "tripDescription" : "Description about my trip is following the above description.",
+    "pathToMemorie": "",
+    "explanation": "",
+    "myTimeThere": ""
   },
   "England" : {
     "imageLocation" : "/images/England.png",
     "name": "London",
     "countryName": "England",
     "cardColor": "brown",
-    "smallDescription": "Small description about my trip in London is coming"
+    "smallDescription": "So much too see there, but easily reachable. Harry Potter's country.",
+    "description": "Description is coming soon !",
+    "tripDescription" : "Description about my trip is following the above description.",
+    "pathToMemorie": "",
+    "explanation": "",
+    "myTimeThere": ""
   },
   "Tanzania" : {
     "imageLocation" : "/images/Tanzania.png",
     "name": "Tanzania",
     "countryName": "South Africa",
     "cardColor": "grey",
-    "smallDescription": "Small description about my trip in Tanzania is coming"
+    "smallDescription": "Not as touristic as Kenya and that's good, people are really friendly and nice with strangers.",
+    "description": "Description is coming soon !",
+    "tripDescription" : "Description about my trip is following the above description.",
+    "pathToMemorie": "",
+    "explanation": "",
+    "myTimeThere": ""
   },
   "Amsterdam" : {
     "imageLocation" : "/images/Amsterdam.png",
     "name": "Amsterdam",
     "countryName": "Netherlands",
     "cardColor": "red",
-    "smallDescription": "Small description about my trip in Amsterdam is coming"
+    "smallDescription": "Small city, very nice and entertaining (museums, neighborhoods...).",
+    "description": "Description is coming soon !",
+    "tripDescription" : "Description about my trip is following the above description.",
+    "pathToMemorie": "",
+    "explanation": "",
+    "myTimeThere": ""
   }
 }

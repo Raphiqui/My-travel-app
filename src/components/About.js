@@ -3,15 +3,23 @@ import {Icon, Menu} from 'semantic-ui-react'
 import { notification } from 'antd';
 
 export default class About extends Component {
-    state = {};
+    constructor(props) {
+        super(props);
+        this.state = {};
+        console.log('INTO ABOUT:', props)
+    }
 
     openNotification = () => {
         notification.open({
-            message: 'Purpose of this app',
-            duration : 5,
+            message: <h3>Purpose of this app</h3>,
+            duration : 15,
             description:
-                'This app has been created in order to keep going my training about Reactjs after my ending studies internship. ' +
-                'It purpose is to show few of my trips across the world.',
+                <p style={{fontSize: '20px'}}>
+                    This app has been created in order to keep going learning about Reactjs.
+                    I'm building it during this special period between the end of your studies and your first job.
+                    After my internship I had the goal to increase my knowledge bounded to programming.
+                    This app will show few of my trips across the world.
+                </p>,
             icon: <Icon name="globe" style={{ color: '#2ab9e9' }} />,
             style: {
                 width: 600,
@@ -24,9 +32,8 @@ export default class About extends Component {
     };
 
     render() {
-
         return (
-            <Menu.Item name='About' onClick={this.openNotification}> <Icon name={"archive"}/> About </Menu.Item>
+            <Menu.Item name='About' onClick={this.openNotification}> <Icon name={"globe"}/> About </Menu.Item>
         )
     }
 }
