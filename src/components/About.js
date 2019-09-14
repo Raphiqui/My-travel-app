@@ -11,11 +11,12 @@ export default class About extends Component {
 
     openNotification = () => {
         notification.open({
-            message: 'Purpose of this app',
-            duration : 5,
+            message: <h3>Purpose of this app</h3>,
+            duration : 15,
             description:
-                'This app has been created in order to keep going my training about Reactjs after my ending studies internship. ' +
-                'It purpose is to show few of my trips across the world.',
+                <p style={{fontSize: '20px'}}>This app has been created in order to keep going my training about Reactjs after my internship to validate my studies in IT engineering.
+                    It purpose is to show few of my trips across the world.
+                </p>,
             icon: <Icon name="globe" style={{ color: '#2ab9e9' }} />,
             style: {
                 width: 600,
