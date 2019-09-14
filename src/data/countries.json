@@ -5,7 +5,8 @@
     "countryName": "Mexico",
     "cardColor": "red",
     "smallDescription": "Pretty nice place, very nice but across the years I've seen that this place is changing to small local shops from big shopping centers like in the US.",
-    "description": "",
+    "description": "Description is coming soon !",
+    "tripDescription" : "Description about my trip is following the above description.",
     "pathToMemorie": "",
     "explanation": "",
     "myTimeThere": ""
@@ -16,7 +17,8 @@
     "countryName": "Australia",
     "cardColor": "orange",
     "smallDescription": "The most beautiful and amazing trip I've done so far. Very dangerous country, crocodiles, octopus, casoars, snakes, spiders...",
-    "description": "",
+    "description": "Description is coming soon !",
+    "tripDescription" : "Description about my trip is following the above description.",
     "pathToMemorie": "",
     "explanation": "",
     "myTimeThere": ""
@@ -27,7 +29,8 @@
     "countryName": "United-States",
     "cardColor": "yellow",
     "smallDescription": "American dream, famous place full of luxury and rich people (very known for most of them)",
-    "description": "",
+    "description": "Description is coming soon !",
+    "tripDescription" : "Description about my trip is following the above description.",
     "pathToMemorie": "",
     "explanation": "",
     "myTimeThere": ""
@@ -38,7 +41,8 @@
     "countryName": "Dominican Republic",
     "cardColor": "olive",
     "smallDescription": "Post card paradise but in danger due to pollution.",
-    "description": "",
+    "description": "Description is coming soon !",
+    "tripDescription" : "Description about my trip is following the above description.",
     "pathToMemorie": "",
     "explanation": "",
     "myTimeThere": ""
@@ -49,7 +53,8 @@
     "countryName": "Egypt",
     "cardColor": "green",
     "smallDescription": "The place to go if you'd like to do diving session into the most beautiful sea of the world, nothing to compare with the caribbean ones.",
-    "description": "",
+    "description": "Description is coming soon !",
+    "tripDescription" : "Description about my trip is following the above description.",
     "pathToMemorie": "",
     "explanation": "",
     "myTimeThere": ""
@@ -60,7 +65,8 @@
     "countryName": "Ireland",
     "cardColor": "teal",
     "smallDescription": "Don't be afraid by the rain cause you'll obviously be under, that's why this country is so green after all.",
-    "description": "",
+    "description": "Description is coming soon !",
+    "tripDescription" : "Description about my trip is following the above description.",
     "pathToMemorie": "",
     "explanation": "",
     "myTimeThere": ""
@@ -70,8 +76,9 @@
     "name": "Italy",
     "countryName": "Italy",
     "cardColor": "blue",
-    "smallDescription": "I come from Italy by blood, South and North are not friendly to each other.",
-    "description": "",
+    "smallDescription": "South and North are not friendly to each other.",
+    "description": "Description is coming soon !",
+    "tripDescription" : "Description about my trip is following the above description.",
     "pathToMemorie": "",
     "explanation": "",
     "myTimeThere": ""
@@ -82,7 +89,8 @@
     "countryName": "Spain",
     "cardColor": "violet",
     "smallDescription": "Nice and warm, very attractive for holidays.",
-    "description": "",
+    "description": "Description is coming soon !",
+    "tripDescription" : "Description about my trip is following the above description.",
     "pathToMemorie": "",
     "explanation": "",
     "myTimeThere": ""
@@ -93,7 +101,8 @@
     "countryName": "Cuba",
     "cardColor": "purple",
     "smallDescription": "Cars are really famous there cause of their design old fashioned.",
-    "description": "",
+    "description": "Description is coming soon !",
+    "tripDescription" : "Description about my trip is following the above description.",
     "pathToMemorie": "",
     "explanation": "",
     "myTimeThere": ""
@@ -104,7 +113,8 @@
     "countryName": "Luxembourg",
     "cardColor": "pink",
     "smallDescription": "Really small, could go to one side to another in 2 hours of driving. Not known by most of people but very interesting.",
-    "description": "",
+    "description": "Description is coming soon !",
+    "tripDescription" : "Description about my trip is following the above description.",
     "pathToMemorie": "",
     "explanation": "",
     "myTimeThere": ""
@@ -115,7 +125,8 @@
     "countryName": "England",
     "cardColor": "brown",
     "smallDescription": "So much too see there, but easily reachable. Harry Potter's country.",
-    "description": "",
+    "description": "Description is coming soon !",
+    "tripDescription" : "Description about my trip is following the above description.",
     "pathToMemorie": "",
     "explanation": "",
     "myTimeThere": ""
@@ -126,7 +137,8 @@
     "countryName": "South Africa",
     "cardColor": "grey",
     "smallDescription": "Not as touristic as Kenya and that's good, people are really friendly and nice with strangers.",
-    "description": "",
+    "description": "Description is coming soon !",
+    "tripDescription" : "Description about my trip is following the above description.",
     "pathToMemorie": "",
     "explanation": "",
     "myTimeThere": ""
@@ -137,7 +149,8 @@
     "countryName": "Netherlands",
     "cardColor": "red",
     "smallDescription": "Small city, very nice and entertaining (museums, neighborhoods...).",
-    "description": "",
+    "description": "Description is coming soon !",
+    "tripDescription" : "Description about my trip is following the above description.",
     "pathToMemorie": "",
     "explanation": "",
     "myTimeThere": ""

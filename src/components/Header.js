@@ -13,7 +13,7 @@ export default class Header extends Component {
         // const { activeItem } = this.state;
 
         return (
-            <Menu fixed='top' size={"massive"} style={{backgroundColor: "#5E7FA8"}}>
+            <Menu fluid widths={3} fixed='top' size={"massive"} style={{backgroundColor: "#5E7FA8"}}>
                 <Menu.Item
                     name='Home page'
                     active={this.props.activeItem === 'Home page'}
@@ -24,6 +24,8 @@ export default class Header extends Component {
                 </Menu.Item>
 
                 <About/>
+
+                <Menu.Item as={"h3"}><b>My travel app</b></Menu.Item>
 
             </Menu>
         )

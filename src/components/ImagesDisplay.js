@@ -14,35 +14,29 @@ export default class ImagesDisplay extends Component {
 
     render() {
         console.log('PROPS INTO IMAGESDISPLAY:', this.props);
-        const {itemSelected} = this.props;
+        const {itemSelected, imagesTemplate} = this.props;
 
         return (
-            <div style={{paddingTop: "60px"}}>
+            <div>
 
                 {this.props.isDetailOpen
-                    ?<div>
+                    ?<div style={{paddingTop: "20px"}}>
                         <Segment style={{ padding: '8em 0em' }} vertical>
                             <Grid container stackable verticalAlign='middle'>
                                 <Grid.Row>
                                     <Grid.Column width={8}>
-                                        <Header as='h3' style={{ fontSize: '2em' }}>
+                                        <Header as='h2' style={{ fontSize: '2em' }}>
                                             {itemSelected['name'] === itemSelected['countryName']
                                                 ? itemSelected["name"]
                                                 : itemSelected["name"] + " (" + itemSelected["countryName"] + ")"
                                             }
                                         </Header>
-                                        <p style={{ fontSize: '1.33em' }}>
-                                            {/*Description of the country*/}
-                                            We can give your company superpowers to do things that they never thought possible.
-                                            Let us delight your customers and empower your needs... through pure data analytics.
-                                        </p>
-                                        <Header as='h3' style={{ fontSize: '2em' }}>
-                                            We Make Bananas That Can Dance
+                                        <Header style={{ fontSize: '2em' }}>
+                                            <h2>About my journey there</h2>
                                         </Header>
                                         <p style={{ fontSize: '1.33em' }}>
                                             {/*Description of what you've done there and for how long*/}
-                                            Yes that's right, you thought it was the stuff of dreams, but even bananas can be
-                                            bioengineered.
+                                            {itemSelected['tripDescription']}
                                         </p>
                                     </Grid.Column>
                                     <Grid.Column floated='right' width={6}>
@@ -57,20 +51,20 @@ export default class ImagesDisplay extends Component {
                                 <Grid.Row textAlign='center'>
                                     <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
                                         <Header as='h3' style={{ fontSize: '2em' }}>
-                                            {/*explanation of memories*/}
-                                            "What a Company"
+                                            {/*description of the country or town or ...*/}
+                                            Title will change
                                         </Header>
-                                        <p style={{ fontSize: '1.33em' }}>That is what they all say about us</p>
+                                        <p style={{ fontSize: '1.33em' }}>{itemSelected['description']}</p>
                                     </Grid.Column>
                                     <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
                                         <Header as='h3' style={{ fontSize: '2em' }}>
                                             {/*Memories*/}
-                                            "I shouldn't have gone with their competitor."
+                                            What I'll remember
                                         </Header>
                                         <p style={{ fontSize: '1.33em' }}>
-                                            <Image avatar src='/images/avatar/large/nan.jpg' />
+                                            {/*<Image avatar src='/images/avatar/large/nan.jpg' />*/}
                                             {/*what have I done I won't forget, for instance with the pict of the */}
-                                            <b>Nan</b> Chief Fun Officer Acme Toys
+                                            Memorial stuff in progress
                                         </p>
                                     </Grid.Column>
                                 </Grid.Row>
@@ -80,17 +74,17 @@ export default class ImagesDisplay extends Component {
                                     <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
                                         <Header as='h3' style={{ fontSize: '2em' }}>
                                             {/*Ending world, would I like to go back there, why ? */}
-                                            "What a Company"
+                                            The ending word
                                         </Header>
-                                        <p style={{ fontSize: '1.33em' }}>That is what they all say about us</p>
+                                        <p style={{ fontSize: '1.33em' }}>Very difficult to find a good conclusion</p>
                                     </Grid.Column>
                                 </Grid.Row>
                             </Grid>
                         </Segment>
                     </div>
 
-                    :<Card.Group fluid={true} style={{backgroundColor: "#5E7FA8"}}>
-                        {_.map(this.props.imagesTemplate, (item) => {
+                    :<Card.Group fluid={true} style={{backgroundColor: "#5E7FA8", paddingLeft: "5px", paddingTop: "60px"}}>
+                        {_.map(imagesTemplate, (item) => {
                             return( <Card color={item['cardColor']}>
                             <Card.Content>
                             <Image
@@ -99,7 +93,7 @@ export default class ImagesDisplay extends Component {
                                 src={process.env.PUBLIC_URL + item['imageLocation']}
                             />
                             <Card.Header>{item['name']}</Card.Header>
-                            <Card.Meta>{item['countryName']}</Card.Meta>
+                            <Card.Meta style={{color: "#5E7FA8", fontFamily: "bold"}}>{item['countryName']}</Card.Meta>
                             <Card.Description>
                                 {item['smallDescription']}
                             </Card.Description>
