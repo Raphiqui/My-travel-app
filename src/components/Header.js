@@ -10,14 +10,14 @@ export default class Header extends Component {
     }
 
     render() {
-        // const { activeItem } = this.state;
+        const { activeItem, handleItemClick } = this.props;
 
         return (
             <Menu fluid widths={3} fixed='top' size={"massive"} style={{backgroundColor: "#5E7FA8"}}>
                 <Menu.Item
                     name='Home page'
-                    active={this.props.activeItem === 'Home page'}
-                    onClick={this.props.handleItemClick}
+                    active={activeItem === 'Home page'}
+                    onClick={handleItemClick}
                 >
                     <Icon name={"home"}/>
                     Home page

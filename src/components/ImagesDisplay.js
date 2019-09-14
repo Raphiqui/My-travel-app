@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import { Image, Card, Button, Item, Segment, Grid, Header } from 'semantic-ui-react';
+import { Image, Card, Button, Segment, Grid, Header } from 'semantic-ui-react';
+import Cards from './Cards.js';
 import 'antd/dist/antd.css';
 const _ = require('lodash');
 
@@ -7,14 +8,12 @@ export default class ImagesDisplay extends Component {
 
     constructor(props) {
         super(props);
-        this.state = {
-            hovered: false,
-        }
+        this.state = {}
     }
 
     render() {
         console.log('PROPS INTO IMAGESDISPLAY:', this.props);
-        const {itemSelected, imagesTemplate} = this.props;
+        const {cardSelected, imagesTemplate, showDetails} = this.props;
 
         return (
             <div>
@@ -26,9 +25,9 @@ export default class ImagesDisplay extends Component {
                                 <Grid.Row>
                                     <Grid.Column width={8}>
                                         <Header as='h2' style={{ fontSize: '2em' }}>
-                                            {itemSelected['name'] === itemSelected['countryName']
-                                                ? itemSelected["name"]
-                                                : itemSelected["name"] + " (" + itemSelected["countryName"] + ")"
+                                            {cardSelected['name'] === cardSelected['countryName']
+                                                ? cardSelected["name"]
+                                                : cardSelected["name"] + " (" + cardSelected["countryName"] + ")"
                                             }
                                         </Header>
                                         <Header style={{ fontSize: '2em' }}>
@@ -36,11 +35,11 @@ export default class ImagesDisplay extends Component {
                                         </Header>
                                         <p style={{ fontSize: '1.33em' }}>
                                             {/*Description of what you've done there and for how long*/}
-                                            {itemSelected['tripDescription']}
+                                            {cardSelected['tripDescription']}
                                         </p>
                                     </Grid.Column>
                                     <Grid.Column floated='right' width={6}>
-                                        <Image bordered rounded size='large' src={process.env.PUBLIC_URL + this.props.itemSelected['imageLocation']} />
+                                        <Image bordered rounded size='large' src={process.env.PUBLIC_URL + this.props.cardSelected['imageLocation']} />
                                     </Grid.Column>
                                 </Grid.Row>
                             </Grid>
@@ -54,7 +53,7 @@ export default class ImagesDisplay extends Component {
                                             {/*description of the country or town or ...*/}
                                             Title will change
                                         </Header>
-                                        <p style={{ fontSize: '1.33em' }}>{itemSelected['description']}</p>
+                                        <p style={{ fontSize: '1.33em' }}>{cardSelected['description']}</p>
                                     </Grid.Column>
                                     <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
                                         <Header as='h3' style={{ fontSize: '2em' }}>
@@ -85,28 +84,10 @@ export default class ImagesDisplay extends Component {
 
                     :<Card.Group fluid={true} style={{backgroundColor: "#5E7FA8", paddingLeft: "5px", paddingTop: "60px"}}>
                         {_.map(imagesTemplate, (item) => {
-                            return( <Card color={item['cardColor']}>
-                            <Card.Content>
-                            <Image
-                                floated='right'
-                                size='medium'
-                                src={process.env.PUBLIC_URL + item['imageLocation']}
-                            />
-                            <Card.Header>{item['name']}</Card.Header>
-                            <Card.Meta style={{color: "#5E7FA8", fontFamily: "bold"}}>{item['countryName']}</Card.Meta>
-                            <Card.Description>
-                                {item['smallDescription']}
-                            </Card.Description>
-                            </Card.Content>
-                            <Card.Content extra>
-                            <div className='ui two buttons'>
-                            <Button name={item['name']} onClick={this.props.showDetails} basic color='blue'>
-                            More details
-                            </Button>
-                            </div>
-                            </Card.Content>
-                            </Card>
-                            )
+                            return(<Cards
+                                item={item}
+                                showDetails={showDetails}
+                            />)
                         })}
                     </Card.Group>
 
