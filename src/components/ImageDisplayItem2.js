@@ -14,7 +14,7 @@ export default class ImagesDisplayItem2 extends Component {
         const {cardSelected} = this.props;
 
         return (
-            <Segment style={{ padding: '0em' }} vertical>
+            <Segment style={{ padding: '0em'}} vertical>
                 <Grid celled='internally' columns='equal' stackable>
                     <Grid.Row textAlign='center'>
                         <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
@@ -35,10 +35,6 @@ export default class ImagesDisplayItem2 extends Component {
                                 Memorial stuff in progress
                             </p>
                         </Grid.Column>
-                    </Grid.Row>
-                </Grid>
-                <Grid celled>
-                    <Grid.Row textAlign="center">
                         <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
                             <Header as='h3' style={{ fontSize: '2em' }}>
                                 {/*Ending world, would I like to go back there, why ? */}
@@ -48,6 +44,17 @@ export default class ImagesDisplayItem2 extends Component {
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>
+                {/*<Grid celled>*/}
+                    {/*<Grid.Row textAlign="center">*/}
+                        {/*<Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>*/}
+                            {/*<Header as='h3' style={{ fontSize: '2em' }}>*/}
+                                {/*/!*Ending world, would I like to go back there, why ? *!/*/}
+                                {/*The ending word*/}
+                            {/*</Header>*/}
+                            {/*<p style={{ fontSize: '1.33em' }}>Very difficult to find a good conclusion</p>*/}
+                        {/*</Grid.Column>*/}
+                    {/*</Grid.Row>*/}
+                {/*</Grid>*/}
             </Segment>
         )
     }

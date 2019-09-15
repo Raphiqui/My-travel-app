@@ -30,7 +30,6 @@ export default class ImagesDisplay extends Component {
                         overflow: 'hidden'}}
                     >
                         <Segment1 cardSelected={cardSelected}/>
-                        <Segment2 cardSelected={cardSelected}/>
 
                     </div>
 
