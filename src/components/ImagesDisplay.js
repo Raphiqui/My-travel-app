@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import { Image, Card, Button, Segment, Grid, Header } from 'semantic-ui-react';
 import Cards from './Cards.js';
 import 'antd/dist/antd.css';
+
 const _ = require('lodash');
 
 export default class ImagesDisplay extends Component {
@@ -14,12 +15,20 @@ export default class ImagesDisplay extends Component {
     render() {
         console.log('PROPS INTO IMAGESDISPLAY:', this.props);
         const {cardSelected, imagesTemplate, showDetails} = this.props;
+        console.log(cardSelected);
+        // const Background = process.env.PUBLIC_URL + cardSelected['countryName'];
 
         return (
             <div>
 
                 {this.props.isDetailOpen
-                    ?<div style={{paddingTop: "20px"}}>
+                    ?<div style={{
+                        paddingTop: "20px",
+                        backgroundImage: `url(${process.env.PUBLIC_URL + cardSelected['background']})`,
+                        backgroundRepeat  : 'no-repeat',
+                        backgroundSize: 'cover',
+                        overflow: 'hidden'}}
+                    >
                         <Segment style={{ padding: '8em 0em' }} vertical>
                             <Grid container stackable verticalAlign='middle'>
                                 <Grid.Row>
@@ -92,10 +101,6 @@ export default class ImagesDisplay extends Component {
                     </Card.Group>
 
                 }
-
-
-
-
 
                 {/*<div className="test1" style={{*/}
                     {/*// width: null,*/}
