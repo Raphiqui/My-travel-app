@@ -9,8 +9,7 @@ const imagesTemplate = require('./data/countries.json');
 export default class App extends Component {
     state = {
         isDetailOpen: false,
-        currentPathToFetch: null,
-        itemSelected: null};
+        cardSelected: null};
 
     // componentDidMount(){
     //     this.showMessage();
@@ -28,14 +27,14 @@ export default class App extends Component {
 
         this.setState({
             isDetailOpen: true,
-            itemSelected: buffer,
+            cardSelected: buffer,
         });
     };
 
     handleContextRef = contextRef => this.setState({ contextRef });
 
     render() {
-        const { activeItem, isDetailOpen, itemSelected } = this.state;
+        const { activeItem, isDetailOpen, cardSelected } = this.state;
 
         return (
             <div className="App" ref={this.handleContextRef}>
@@ -43,7 +42,7 @@ export default class App extends Component {
                 <Header handleItemClick={this.handleItemClick} activeItem={activeItem}/>
 
                 <ImagesDisplay
-                    itemSelected={itemSelected}
+                    cardSelected={cardSelected}
                     imagesTemplate={imagesTemplate}
                     showDetails={this.showDetails}
                     isDetailOpen={isDetailOpen}/>

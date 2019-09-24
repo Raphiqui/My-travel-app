@@ -1,6 +1,7 @@
 {
   "Cancun" : {
     "imageLocation" : "/images/Cancun.png",
+    "background" : "/images/CancunBlured.png",
     "name": "Cancun",
     "countryName": "Mexico",
     "cardColor": "red",
@@ -13,6 +14,7 @@
   },
   "Queensland" : {
     "imageLocation" : "/images/Queensland.png",
+    "background" : "/images/QueenslandBlured.png",
     "name": "Queensland",
     "countryName": "Australia",
     "cardColor": "orange",
@@ -25,6 +27,7 @@
   },
   "Los Angeles" : {
     "imageLocation" : "/images/LA.png",
+    "background" : "/images/LABlured.png",
     "name": "Los Angeles",
     "countryName": "United-States",
     "cardColor": "yellow",
@@ -37,6 +40,7 @@
   },
   "Dominican Republic" : {
     "imageLocation" : "/images/DR.png",
+    "background" : "/images/DRBlured.png",
     "name": "Dominican Republic",
     "countryName": "Dominican Republic",
     "cardColor": "olive",
@@ -49,6 +53,7 @@
   },
   "Egypt" : {
     "imageLocation" : "/images/Egypt.png",
+    "background" : "/images/EgyptBlured.png",
     "name": "Egypt",
     "countryName": "Egypt",
     "cardColor": "green",
@@ -61,6 +66,7 @@
   },
   "Ireland" : {
     "imageLocation" : "/images/Ireland.png",
+    "background" : "/images/IrelandBlured.png",
     "name": "Cork",
     "countryName": "Ireland",
     "cardColor": "teal",
@@ -73,6 +79,7 @@
   },
   "Italy" : {
     "imageLocation" : "/images/Italy.png",
+    "background" : "/images/LABlured.png",
     "name": "Italy",
     "countryName": "Italy",
     "cardColor": "blue",
@@ -85,6 +92,7 @@
   },
   "Spain" : {
     "imageLocation" : "/images/Spain.png",
+    "background" : "/images/SpainBlured.png",
     "name": "Madrid",
     "countryName": "Spain",
     "cardColor": "violet",
@@ -97,6 +105,7 @@
   },
   "Cuba" : {
     "imageLocation" : "/images/Cuba.png",
+    "background" : "/images/CubaBlured.png",
     "name": "Cuba",
     "countryName": "Cuba",
     "cardColor": "purple",
@@ -109,6 +118,7 @@
   },
   "Luxembourg" : {
     "imageLocation" : "/images/Luxembourg.png",
+    "background" : "/images/LuxembourgBlured.png",
     "name": "Luxembourg",
     "countryName": "Luxembourg",
     "cardColor": "pink",
@@ -121,10 +131,11 @@
   },
   "England" : {
     "imageLocation" : "/images/England.png",
+    "background" : "/images/EnglandBlured.png",
     "name": "London",
     "countryName": "England",
     "cardColor": "brown",
-    "smallDescription": "So much too see there, but easily reachable. Harry Potter's country.",
+    "smallDescription": "So much to see there, but easily reachable. Harry Potter's country.",
     "description": "Description is coming soon !",
     "tripDescription" : "Description about my trip is following the above description.",
     "pathToMemorie": "",
@@ -133,6 +144,7 @@
   },
   "Tanzania" : {
     "imageLocation" : "/images/Tanzania.png",
+    "background" : "/images/TanzaniaBlured.png",
     "name": "Tanzania",
     "countryName": "South Africa",
     "cardColor": "grey",
@@ -145,6 +157,7 @@
   },
   "Amsterdam" : {
     "imageLocation" : "/images/Amsterdam.png",
+    "background" : "/images/AmsterdamBlured.png",
     "name": "Amsterdam",
     "countryName": "Netherlands",
     "cardColor": "red",
