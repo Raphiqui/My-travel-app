@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
-import {Card, Segment, Grid, Header } from 'semantic-ui-react';
+import { Card } from 'semantic-ui-react';
 import Cards from './Cards.js';
 import Segment1 from './ImageDisplayItem1.js';
-import Segment2 from './ImageDisplayItem2.js';
 import 'antd/dist/antd.css';
 
 const _ = require('lodash');
@@ -20,7 +19,6 @@ export default class ImagesDisplay extends Component {
 
         return (
             <div>
-
                 {this.props.isDetailOpen
                     ?<div style={{
                         paddingTop: "20px",
@@ -41,24 +39,7 @@ export default class ImagesDisplay extends Component {
                             />)
                         })}
                     </Card.Group>
-
                 }
-
-                {/*<div className="test1" style={{*/}
-                    {/*// width: null,*/}
-                    {/*height: "800px",*/}
-                    {/*backgroundImage: `url(${Background})`,*/}
-                    {/*backgroundRepeat: "no-repeat",*/}
-                    {/*backgroundSize: "cover"*/}
-                {/*}}>*/}
-                    {/*/!*<Icon onClick={() => {console.log("clicked")}} size="big" name="close" style={{color: "red", paddingTop: "400px"}}/>*!/*/}
-                    {/*<Segment>*/}
-                        {/*<Dimmer active={true    }>*/}
-                            {/*<Icon name="close"/>*/}
-                        {/*</Dimmer>*/}
-                    {/*</Segment>*/}
-                {/*</div>*/}
-
             </div>
         )
     }
