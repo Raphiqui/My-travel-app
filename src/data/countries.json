@@ -8,7 +8,7 @@
     "smallDescription": "Pretty nice place, very nice but across the years I've seen that this place is changing to small local shops from big shopping centers like in the US",
     "description": "Playa del Carmen is a city located along the Caribbean Sea in the municipality of Solidaridad, in the state of Quintana Roo, Mexico. It is a popular tourist area in eastern Mexico. Playa del Carmen features a wide array of tourist activities due to its geographical location in the Riviera Maya. It has also been the destination of PGA Tour golf tournaments and the set location for various television shows. The town has become one of the fastest to grow in population size in Mexico.",
     "tripDescription" : "Vacations with members of my family, chilling and discovering some part of the Mexican culture (pyramid aztec or trails into the jungle...)",
-    "pathToMemorie": "/images/Cenotes.png",
+    "pathToMemorie": "/images/cenote.png",
     "explanation": "Jumping into this cenote from 8 meters with a bottom as gloomy as it could be",
     "endingWord": "I hope to come back there to visit more"
   },
@@ -20,9 +20,9 @@
     "cardColor": "orange",
     "smallDescription": "The most beautiful and amazing trip I've done so far. Very dangerous country, crocodiles, octopus, casoars, snakes, spiders...",
     "description": "Queensland is the second-largest and third-most populous state in the Commonwealth of Australia. Situated in the north-east of the country, it is bordered by the Northern Territory, South Australia and New South Wales to the west, south-west and south respectively. To the east, Queensland is bordered by the Coral Sea and Pacific Ocean. To its north is the Torres Strait, with Papua New Guinea located less than 200 km across it from the mainland. The state is the world's sixth-largest sub-national entity, with an area of 1,852,642 square kilometres",
-    "tripDescription" : "Description about my trip is following the above description.",
-    "pathToMemorie": "",
-    "explanation": "",
+    "tripDescription" : "Thanks to a member of my family's advantages from his company I could participate to this trip with other people who got the same luck. Two people were in charge of driving the vans and to lead the trip",
+    "pathToMemorie": "/images/bush.png",
+    "explanation": "Sleeping into the \"bush\" with nothing more than a sleeping bag",
     "endingWord": "Childhood dream to go there"
   },
   "Los Angeles" : {
@@ -33,9 +33,9 @@
     "cardColor": "yellow",
     "smallDescription": "American dream, famous place full of luxury and rich people (very known for most of them)",
     "description": "Los Angeles often known by its initials L.A., is the most populous city in California; the second most populous city in the United States, after New York City; and the third most populous city in North America, after Mexico City and New York City. With an estimated population of nearly four million people,[11] Los Angeles is the cultural, financial, and commercial center of Southern California. The city is known for its Mediterranean-like climate, ethnic diversity, Hollywood, the entertainment industry, and its sprawling metropolis",
-    "tripDescription" : "Description about my trip is following the above description.",
-    "pathToMemorie": "",
-    "explanation": "",
+    "tripDescription" : "This trip has been organized by one of my teacher in high school really involved into student's fulfilment and to go somewhere else than to the annual ski travel",
+    "pathToMemorie": null,
+    "explanation": "Seen some of the famous movies places at Disney's Hollywood Studios",
     "endingWord": ""
   },
   "Dominican Republic" : {
@@ -62,7 +62,7 @@
     "tripDescription" : "Description about my trip is following the above description.",
     "pathToMemorie": "",
     "explanation": "",
-    "endingWord": ""
+    "endingWord": "Best place to dive"
   },
   "Ireland" : {
     "imageLocation" : "/images/Ireland.png",
@@ -150,10 +150,10 @@
     "cardColor": "grey",
     "smallDescription": "Not as touristic as Kenya and that's good, people are really friendly and nice with strangers.",
     "description": "Tanzania officially the United Republic of Tanzania, is a country in East Africa within the African Great Lakes region. It borders Uganda to the north; Kenya to the northeast; Comoro Islands at the Indian Ocean to the east; Mozambique and Malawi to the south; Zambia to the southwest; and Rwanda, Burundi, and the Democratic Republic of the Congo to the west. Mount Kilimanjaro, Africa's highest mountain, is in north-eastern Tanzania",
-    "tripDescription" : "Thanks to the organism in charge a member of my family I could go there.",
+    "tripDescription" : "Thanks to a member of my family's advantages from his company I could participate to this trip with other people who got the same luck",
     "pathToMemorie": "",
-    "explanation": "",
-    "endingWord": ""
+    "explanation": "Meeting some people from there called \"maasaï\"",
+    "endingWord": "mambo poa asante sana tu tuana"
   },
   "Amsterdam" : {
     "imageLocation" : "/images/Amsterdam.png",
