@@ -7,7 +7,6 @@ export default class Cards extends Component {
     constructor(props) {
         super(props);
         this.state = {};
-        console.log('INTO CARDS: ', this.props);
     }
 
     render() {
