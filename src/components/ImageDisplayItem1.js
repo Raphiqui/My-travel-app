@@ -27,7 +27,7 @@ export default class ImagesDisplayItem1 extends Component {
                                 <Header style={{ fontSize: '2em' }}>
                                     <h2>About my journey there</h2>
                                 </Header>
-                                <p style={{ fontSize: '1.33em' }}>
+                                <p style={{ fontSize: '1.33em', color: 'white' }}>
                                     {/*Description of what you've done there and for how long*/}
                                     {cardSelected['tripDescription']}
                                 </p>
@@ -40,7 +40,7 @@ export default class ImagesDisplayItem1 extends Component {
                     <Grid columns='equal' stackable>
                         <Grid.Row textAlign='center'>
                             <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
-                                <Header as='h3' style={{ fontSize: '2em' }}>
+                                <Header as='h3' style={{ fontSize: '2em', color: 'white' }}>
                                     {/*description of the country or town or ...*/}
                                     Title will change
                                 </Header>
