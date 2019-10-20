@@ -55,7 +55,7 @@ export default class ImagesDisplayItem1 extends Component {
                                 <p style={{ fontSize: '1.33em' }}>
                                     {/*<Image avatar src='/images/avatar/large/nan.jpg' />*/}
                                     {/*what have I done I won't forget, for instance with the pict of the */}
-                                    Memorial stuff in progress
+                                    {cardSelected['memory']}
                                 </p>
                             </Grid.Column>
                         </Grid.Row>

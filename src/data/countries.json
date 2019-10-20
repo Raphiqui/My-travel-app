@@ -8,9 +8,7 @@
     "smallDescription": "Pretty nice place, very nice but across the years I've seen that this place is changing to small local shops from big shopping centers like in the US",
     "description": "Playa del Carmen is a city located along the Caribbean Sea in the municipality of Solidaridad, in the state of Quintana Roo, Mexico. It is a popular tourist area in eastern Mexico. Playa del Carmen features a wide array of tourist activities due to its geographical location in the Riviera Maya. It has also been the destination of PGA Tour golf tournaments and the set location for various television shows. The town has become one of the fastest to grow in population size in Mexico.",
     "tripDescription" : "Vacations with members of my family, chilling and discovering some part of the Mexican culture (pyramid aztec or trails into the jungle...)",
-    "pathToMemorie": "/images/cenote.png",
-    "explanation": "Jumping into this cenote from 8 meters with a bottom as gloomy as it could be",
-    "endingWord": "I hope to come back there to visit more",
+    "memory": "Jumping into this cenote from 8 meters with a bottom as gloomy as it could be",
     "flag": "/images/Flags/MexicoFlag.png"
   },
   "Queensland" : {
@@ -22,9 +20,7 @@
     "smallDescription": "The most beautiful and amazing trip I've done so far. Very dangerous country, crocodiles, octopus, casoars, snakes, spiders...",
     "description": "Queensland is the second-largest and third-most populous state in the Commonwealth of Australia. Situated in the north-east of the country, it is bordered by the Northern Territory, South Australia and New South Wales to the west, south-west and south respectively. To the east, Queensland is bordered by the Coral Sea and Pacific Ocean. To its north is the Torres Strait, with Papua New Guinea located less than 200 km across it from the mainland. The state is the world's sixth-largest sub-national entity, with an area of 1,852,642 square kilometres",
     "tripDescription" : "Thanks to a member of my family's advantages from his company I could participate to this trip with other people who got the same luck. Two people were in charge of driving the vans and to lead the trip",
-    "pathToMemorie": "/images/bush.png",
-    "explanation": "Sleeping into the \"bush\" with nothing more than a sleeping bag",
-    "endingWord": "Childhood dream to go there",
+    "memory": "Sleeping into the \"bush\" with nothing more than a sleeping bag, my childhood dream came true",
     "flag": "/images/Flags/AustraliaFlag.png"
   },
   "Los Angeles" : {
@@ -36,9 +32,7 @@
     "smallDescription": "American dream, famous place full of luxury and rich people (very known for most of them)",
     "description": "Los Angeles often known by its initials L.A., is the most populous city in California; the second most populous city in the United States, after New York City; and the third most populous city in North America, after Mexico City and New York City. With an estimated population of nearly four million people,[11] Los Angeles is the cultural, financial, and commercial center of Southern California. The city is known for its Mediterranean-like climate, ethnic diversity, Hollywood, the entertainment industry, and its sprawling metropolis",
     "tripDescription" : "This trip has been organized by one of my teacher in high school really involved into student's fulfilment and to go somewhere else than to the annual ski travel",
-    "pathToMemorie": null,
-    "explanation": "Seen some of the famous movies places at Disney's Hollywood Studios",
-    "endingWord": "",
+    "memory": "Seen some of the famous movies places at Disney's Hollywood Studios",
     "flag": "/images/Flags/USFlag.png"
   },
   "Dominican Republic" : {
@@ -50,9 +44,7 @@
     "smallDescription": "Post card paradise but in danger due to pollution.",
     "description": "The Dominican Republic is a country located on the island of Hispaniola in the Greater Antilles archipelago of the Caribbean region. It occupies the eastern five-eighths of the island, which it shares with the nation of Haiti, making Hispaniola one of only two Caribbean islands, along with Saint Martin, that are shared by two sovereign states. The Dominican Republic is the second-largest Caribbean nation by area (after Cuba) at 48,671 square kilometers, and third by population with approximately 10,299,000 people, of whom approximately three million live in the metropolitan area of Santo Domingo, the capital city",
     "tripDescription" : "Description about my trip is following the above description.",
-    "pathToMemorie": "",
-    "explanation": "",
-    "endingWord": "",
+    "memory": "",
     "flag": "/images/Flags/DRFlag.png"
   },
   "Egypt" : {
@@ -64,9 +56,7 @@
     "smallDescription": "The place to go if you'd like to do diving session into the most beautiful sea of the world, nothing to compare with the caribbean ones.",
     "description": "Egypt, officially the Arab Republic of Egypt, is a country in the northeast corner of Africa, whose territory in the Sinai Peninsula extends beyond the continental boundary with Asia, as traditionally defined. Egypt is bordered by the Gaza Strip and Israel to the northeast, the Gulf of Aqaba and the Red Sea to the east, Sudan to the south, Libya to the west, and the Mediterranean Sea to the north. Across the Gulf of Aqaba lies Jordan, across the Red Sea lies Saudi Arabia, and across the Mediterranean lie Greece, Turkey and Cyprus, although none share a land border with Egypt",
     "tripDescription" : "Description about my trip is following the above description.",
-    "pathToMemorie": "",
-    "explanation": "",
-    "endingWord": "Best place to dive",
+    "memory": "Best place to dive",
     "flag": "/images/Flags/EgyptFlag.png"
   },
   "Ireland" : {
@@ -78,9 +68,7 @@
     "smallDescription": "Don't be afraid by the rain cause you'll obviously be under, that's why this country is so green after all.",
     "description": "Ireland is an island in the North Atlantic. It is separated from Great Britain to its east by the North Channel, the Irish Sea, and St George's Channel. Ireland is the second-largest island of the British Isles, the third-largest in Europe, and the twentieth-largest on Earth. Politically, Ireland is divided between the Republic of Ireland (officially named Ireland), which covers five-sixths of the island, and Northern Ireland, which is part of the United Kingdom. In 2011, the population of Ireland was about 6.6 million, ranking it the second-most populous island in Europe after Great Britain. Just under 4.8 million live in the Republic of Ireland and just over 1.8 million live in Northern Ireland",
     "tripDescription" : "Description about my trip is following the above description.",
-    "pathToMemorie": "",
-    "explanation": "",
-    "endingWord": "",
+    "memory": "The people I met there, all the trip we made and the moments we spent together",
     "flag": "/images/Flags/IrelandFlag.png"
   },
   "Italy" : {
@@ -92,9 +80,7 @@
     "smallDescription": "South and North are not friendly to each other.",
     "description": "Italy officially the Italian Republic , is a European country located in Southern Europe consisting of a peninsula delimited by the Alps and surrounded by several islands. Located in the middle of the Mediterranean sea and traversed along its length by the Apennines, Italy has a largely temperate seasonal climate including Mediterranean and Alpine zones. The country covers a total area of 301,340 km2 (116,350 sq mi), and land area of 294,140 km2, and shares open land borders with France, Switzerland, Austria, Slovenia, and the enclaved microstates of Vatican City and San Marino. Italy has a territorial exclave in Switzerland (Campione) and a maritime exclave in the Tunisian Sea (Lampedusa). With around 60 million inhabitants, Italy is the fourth-most populous member state of the European Union.",
     "tripDescription" : "Description about my trip is following the above description.",
-    "pathToMemorie": "",
-    "explanation": "",
-    "endingWord": "",
+    "memory": "This rizotto we ate on the beach next to the Stromboli, the best one I've ever ate so far",
     "flag": "/images/Flags/ItalyFlag.png"
   },
   "Spain" : {
@@ -106,9 +92,7 @@
     "smallDescription": "Nice and warm, very attractive for holidays.",
     "description": "Spain officially the Kingdom of Spain, is a European country located in Southwestern Europe with some pockets of Spanish territory across the Strait of Gibraltar and the Atlantic Ocean. Its continental European territory is situated on the Iberian Peninsula. Its territory also includes two archipelagoes: the Canary Islands off the coast of Africa, and the Balearic Islands in the Mediterranean Sea. The African enclaves of Ceuta, Melilla, and Peñón de Vélez de la Gomera make Spain the only European country to have a physical border with an African country (Morocco). Several small islands in the Alboran Sea are also part of Spanish territory. The country's mainland is bordered to the south and east by the Mediterranean Sea except for a small land boundary with Gibraltar; to the north and northeast by France, Andorra, and the Bay of Biscay; and to the west and northwest by Portugal and the Atlantic Ocean",
     "tripDescription" : "Description about my trip is following the above description.",
-    "pathToMemorie": "",
-    "explanation": "",
-    "endingWord": "",
+    "memory": "Warm even during the winter",
     "flag": "/images/Flags/SpainFlag.png"
   },
   "Cuba" : {
@@ -120,9 +104,7 @@
     "smallDescription": "Cars are really famous there cause of their design old fashioned.",
     "description": "Cuba officially the Republic of Cuba, is a country comprising the island of Cuba as well as Isla de la Juventud and several minor archipelagos. Cuba is located in the northern Caribbean where the Caribbean Sea, Gulf of Mexico and Atlantic Ocean meet. It is east of the Yucatán Peninsula (Mexico), south of both the U.S. state of Florida and the Bahamas, west of Haiti and north of both Jamaica and the Cayman Islands. Havana is the largest city and capital; other major cities include Santiago de Cuba and Camagüey. The area of the Republic of Cuba is 110,860 square kilometers (109,884 square kilometers without the territorial waters). The island of Cuba is the largest island in Cuba and in the Caribbean, with an area of 105,006 square kilometers, and the second-most populous after Hispaniola, with over 11 million inhabitants",
     "tripDescription" : "Description about my trip is following the above description.",
-    "pathToMemorie": "",
-    "explanation": "",
-    "endingWord": "",
+    "memory": "The so special design of the cars",
     "flag": "/images/Flags/CubaFlag.png"
   },
   "Luxembourg" : {
@@ -134,9 +116,7 @@
     "smallDescription": "Really small, could go to one side to another in 2 hours of driving. Not known by most of people but very interesting.",
     "description": "Luxembourg officially the Grand Duchy of Luxembourg, is a landlocked microstate in western Europe. It is bordered by Belgium to the west and north, Germany to the east, and France to the south. Its capital, Luxembourg City, is one of the four official capitals of the European Union (together with Brussels, Frankfurt, and Strasbourg) and the seat of the European Court of Justice, the highest judicial authority in the EU. Its culture, people, and languages are highly intertwined with its neighbours, making it essentially a mixture of French and German cultures, as evident by the nation's three official languages: French, German, and the national language of Luxembourgish. The repeated invasions by Germany, especially in World War II, resulted in the country's strong will for mediation between France and Germany and, among other things, led to the foundation of the European Union",
     "tripDescription" : "Description about my trip is following the above description.",
-    "pathToMemorie": "",
-    "explanation": "",
-    "endingWord": "",
+    "memory": "Very unknown country but so much to discover about it",
     "flag": "/images/Flags/LuxembourgFlag.png"
   },
   "England" : {
@@ -148,9 +128,7 @@
     "smallDescription": "So much to see there, but easily reachable. Harry Potter's country.",
     "description": "England is a country that is part of the United Kingdom. It shares land borders with Wales to the west and Scotland to the north. The Irish Sea lies west of England and the Celtic Sea to the southwest. England is separated from continental Europe by the North Sea to the east and the English Channel to the south. The country covers five-eighths of the island of Great Britain, which lies in the North Atlantic, and includes over 100 smaller islands, such as the Isles of Scilly and the Isle of Wight",
     "tripDescription" : "Description about my trip is following the above description.",
-    "pathToMemorie": "",
-    "explanation": "",
-    "endingWord": "",
+    "memory": "These special building fro students where we lived during this trip",
     "flag": "/images/Flags/EnglandFlag.png"
   },
   "Tanzania" : {
@@ -162,9 +140,7 @@
     "smallDescription": "Not as touristic as Kenya and that's good, people are really friendly and nice with strangers.",
     "description": "Tanzania officially the United Republic of Tanzania, is a country in East Africa within the African Great Lakes region. It borders Uganda to the north; Kenya to the northeast; Comoro Islands at the Indian Ocean to the east; Mozambique and Malawi to the south; Zambia to the southwest; and Rwanda, Burundi, and the Democratic Republic of the Congo to the west. Mount Kilimanjaro, Africa's highest mountain, is in north-eastern Tanzania",
     "tripDescription" : "Thanks to a member of my family's advantages from his company I could participate to this trip with other people who got the same luck",
-    "pathToMemorie": "",
-    "explanation": "Meeting some people from there called \"maasaï\"",
-    "endingWord": "mambo poa asante sana tu tuana",
+    "memory": "Meeting some people from there called \"maasaï\" and learning some words like \"mambo poa | asante sana tu tuana\"",
     "flag": "/images/Flags/TanzaniaFlag.png"
   },
   "Amsterdam" : {
@@ -176,9 +152,7 @@
     "smallDescription": "Small city, very nice and entertaining (museums, neighborhoods...).",
     "description": "Amsterdam is the capital and most populous city of the Netherlands, with a population of 866,737 within the city proper, 1,380,872 in the urban area,[5] and 2,410,960 in the metropolitan area. Amsterdam is in the province of North Holland. Amsterdam is colloquially referred to as the \"Venice of the North\" due to its large number of canals which are a UNESCO World Heritage Site",
     "tripDescription" : "This journey took place when I was part of an association from my school. Our goal was to entertain students during their studies with some travels across Europe such as Amsterdam, Rotterdam... Unfortunately we've only been able to organize one trip in Amsterdam and not more.",
-    "pathToMemorie": "",
-    "explanation": "",
-    "endingWord": "",
+    "memory": "All the food and drinks we ate there",
     "flag": "/images/Flags/NetherlandsFlag.png"
   }
 }
