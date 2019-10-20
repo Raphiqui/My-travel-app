@@ -10,7 +10,8 @@
     "tripDescription" : "Vacations with members of my family, chilling and discovering some part of the Mexican culture (pyramid aztec or trails into the jungle...)",
     "pathToMemorie": "/images/cenote.png",
     "explanation": "Jumping into this cenote from 8 meters with a bottom as gloomy as it could be",
-    "endingWord": "I hope to come back there to visit more"
+    "endingWord": "I hope to come back there to visit more",
+    "flag": "/images/MexicoFlag.png"
   },
   "Queensland" : {
     "imageLocation" : "/images/Queensland.png",
@@ -23,7 +24,8 @@
     "tripDescription" : "Thanks to a member of my family's advantages from his company I could participate to this trip with other people who got the same luck. Two people were in charge of driving the vans and to lead the trip",
     "pathToMemorie": "/images/bush.png",
     "explanation": "Sleeping into the \"bush\" with nothing more than a sleeping bag",
-    "endingWord": "Childhood dream to go there"
+    "endingWord": "Childhood dream to go there",
+    "flag": "/images/AustraliaFlag.png"
   },
   "Los Angeles" : {
     "imageLocation" : "/images/LA.png",
@@ -36,7 +38,8 @@
     "tripDescription" : "This trip has been organized by one of my teacher in high school really involved into student's fulfilment and to go somewhere else than to the annual ski travel",
     "pathToMemorie": null,
     "explanation": "Seen some of the famous movies places at Disney's Hollywood Studios",
-    "endingWord": ""
+    "endingWord": "",
+    "flag": "/images/USFlag.png"
   },
   "Dominican Republic" : {
     "imageLocation" : "/images/DR.png",
@@ -49,7 +52,8 @@
     "tripDescription" : "Description about my trip is following the above description.",
     "pathToMemorie": "",
     "explanation": "",
-    "endingWord": ""
+    "endingWord": "",
+    "flag": "/images/DRFlag.png"
   },
   "Egypt" : {
     "imageLocation" : "/images/Egypt.png",
@@ -62,7 +66,8 @@
     "tripDescription" : "Description about my trip is following the above description.",
     "pathToMemorie": "",
     "explanation": "",
-    "endingWord": "Best place to dive"
+    "endingWord": "Best place to dive",
+    "flag": "/images/EgyptFlag.png"
   },
   "Ireland" : {
     "imageLocation" : "/images/Ireland.png",
@@ -75,7 +80,8 @@
     "tripDescription" : "Description about my trip is following the above description.",
     "pathToMemorie": "",
     "explanation": "",
-    "endingWord": ""
+    "endingWord": "",
+    "flag": "/images/IrelandFlag.png"
   },
   "Italy" : {
     "imageLocation" : "/images/Italy.png",
@@ -88,7 +94,8 @@
     "tripDescription" : "Description about my trip is following the above description.",
     "pathToMemorie": "",
     "explanation": "",
-    "endingWord": ""
+    "endingWord": "",
+    "flag": "/images/ItalyFlag.png"
   },
   "Spain" : {
     "imageLocation" : "/images/Spain.png",
@@ -101,7 +108,8 @@
     "tripDescription" : "Description about my trip is following the above description.",
     "pathToMemorie": "",
     "explanation": "",
-    "endingWord": ""
+    "endingWord": "",
+    "flag": "/images/SpainFlag.png"
   },
   "Cuba" : {
     "imageLocation" : "/images/Cuba.png",
@@ -114,7 +122,8 @@
     "tripDescription" : "Description about my trip is following the above description.",
     "pathToMemorie": "",
     "explanation": "",
-    "endingWord": ""
+    "endingWord": "",
+    "flag": "/images/CubaFlag.png"
   },
   "Luxembourg" : {
     "imageLocation" : "/images/Luxembourg.png",
@@ -127,7 +136,8 @@
     "tripDescription" : "Description about my trip is following the above description.",
     "pathToMemorie": "",
     "explanation": "",
-    "endingWord": ""
+    "endingWord": "",
+    "flag": "/images/LuxembourgFlag.png"
   },
   "England" : {
     "imageLocation" : "/images/England.png",
@@ -140,7 +150,8 @@
     "tripDescription" : "Description about my trip is following the above description.",
     "pathToMemorie": "",
     "explanation": "",
-    "endingWord": ""
+    "endingWord": "",
+    "flag": "/images/EnglandFlag.png"
   },
   "Tanzania" : {
     "imageLocation" : "/images/Tanzania.png",
@@ -153,7 +164,8 @@
     "tripDescription" : "Thanks to a member of my family's advantages from his company I could participate to this trip with other people who got the same luck",
     "pathToMemorie": "",
     "explanation": "Meeting some people from there called \"maasaï\"",
-    "endingWord": "mambo poa asante sana tu tuana"
+    "endingWord": "mambo poa asante sana tu tuana",
+    "flag": "/images/TanzaniaFlag.png"
   },
   "Amsterdam" : {
     "imageLocation" : "/images/Amsterdam.png",
@@ -166,6 +178,7 @@
     "tripDescription" : "This journey took place when I was part of an association from my school. Our goal was to entertain students during their studies with some travels across Europe such as Amsterdam, Rotterdam... Unfortunately we've only been able to organize one trip in Amsterdam and not more.",
     "pathToMemorie": "",
     "explanation": "",
-    "endingWord": ""
+    "endingWord": "",
+    "flag": "/images/NetherlandsFlag.png"
   }
 }
