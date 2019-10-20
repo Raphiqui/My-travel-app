@@ -1,7 +1,7 @@
 {
   "Playa del Carmen" : {
-    "imageLocation" : "/images/PdC.png",
-    "background" : "/images/PdCBlured.png",
+    "imageLocation" : "/images/Cards/PdC.png",
+    "background" : "/images/Backgrounds/PdCBlured.png",
     "name": "Playa del Carmen",
     "countryName": "Mexico",
     "cardColor": "red",
@@ -11,11 +11,11 @@
     "pathToMemorie": "/images/cenote.png",
     "explanation": "Jumping into this cenote from 8 meters with a bottom as gloomy as it could be",
     "endingWord": "I hope to come back there to visit more",
-    "flag": "/images/MexicoFlag.png"
+    "flag": "/images/Flags/MexicoFlag.png"
   },
   "Queensland" : {
-    "imageLocation" : "/images/Queensland.png",
-    "background" : "/images/QueenslandBlured.png",
+    "imageLocation" : "/images/Cards/Queensland.png",
+    "background" : "/images/Backgrounds/QueenslandBlured.png",
     "name": "Queensland",
     "countryName": "Australia",
     "cardColor": "orange",
@@ -25,11 +25,11 @@
     "pathToMemorie": "/images/bush.png",
     "explanation": "Sleeping into the \"bush\" with nothing more than a sleeping bag",
     "endingWord": "Childhood dream to go there",
-    "flag": "/images/AustraliaFlag.png"
+    "flag": "/images/Flags/AustraliaFlag.png"
   },
   "Los Angeles" : {
-    "imageLocation" : "/images/LA.png",
-    "background" : "/images/LABlured.png",
+    "imageLocation" : "/images/Cards/LA.png",
+    "background" : "/images/Backgrounds/LABlured.png",
     "name": "Los Angeles",
     "countryName": "United-States",
     "cardColor": "yellow",
@@ -39,11 +39,11 @@
     "pathToMemorie": null,
     "explanation": "Seen some of the famous movies places at Disney's Hollywood Studios",
     "endingWord": "",
-    "flag": "/images/USFlag.png"
+    "flag": "/images/Flags/USFlag.png"
   },
   "Dominican Republic" : {
-    "imageLocation" : "/images/DR.png",
-    "background" : "/images/DRBlured.png",
+    "imageLocation" : "/images/Cards/DR.png",
+    "background" : "/images/Backgrounds/DRBlured.png",
     "name": "Dominican Republic",
     "countryName": "Dominican Republic",
     "cardColor": "olive",
@@ -53,11 +53,11 @@
     "pathToMemorie": "",
     "explanation": "",
     "endingWord": "",
-    "flag": "/images/DRFlag.png"
+    "flag": "/images/Flags/DRFlag.png"
   },
   "Egypt" : {
-    "imageLocation" : "/images/Egypt.png",
-    "background" : "/images/EgyptBlured.png",
+    "imageLocation" : "/images/Cards/Egypt.png",
+    "background" : "/images/Backgrounds/EgyptBlured.png",
     "name": "Egypt",
     "countryName": "Egypt",
     "cardColor": "green",
@@ -67,11 +67,11 @@
     "pathToMemorie": "",
     "explanation": "",
     "endingWord": "Best place to dive",
-    "flag": "/images/EgyptFlag.png"
+    "flag": "/images/Flags/EgyptFlag.png"
   },
   "Ireland" : {
-    "imageLocation" : "/images/Ireland.png",
-    "background" : "/images/IrelandBlured.png",
+    "imageLocation" : "/images/Cards/Ireland.png",
+    "background" : "/images/Backgrounds/IrelandBlured.png",
     "name": "Cork",
     "countryName": "Ireland",
     "cardColor": "teal",
@@ -81,11 +81,11 @@
     "pathToMemorie": "",
     "explanation": "",
     "endingWord": "",
-    "flag": "/images/IrelandFlag.png"
+    "flag": "/images/Flags/IrelandFlag.png"
   },
   "Italy" : {
-    "imageLocation" : "/images/Italy.png",
-    "background" : "/images/LABlured.png",
+    "imageLocation" : "/images/Cards/Italy.png",
+    "background" : "/images/Backgrounds/LABlured.png",
     "name": "Italy",
     "countryName": "Italy",
     "cardColor": "blue",
@@ -95,11 +95,11 @@
     "pathToMemorie": "",
     "explanation": "",
     "endingWord": "",
-    "flag": "/images/ItalyFlag.png"
+    "flag": "/images/Flags/ItalyFlag.png"
   },
   "Spain" : {
-    "imageLocation" : "/images/Spain.png",
-    "background" : "/images/SpainBlured.png",
+    "imageLocation" : "/images/Cards/Spain.png",
+    "background" : "/images/Backgrounds/SpainBlured.png",
     "name": "Madrid",
     "countryName": "Spain",
     "cardColor": "violet",
@@ -109,11 +109,11 @@
     "pathToMemorie": "",
     "explanation": "",
     "endingWord": "",
-    "flag": "/images/SpainFlag.png"
+    "flag": "/images/Flags/SpainFlag.png"
   },
   "Cuba" : {
-    "imageLocation" : "/images/Cuba.png",
-    "background" : "/images/CubaBlured.png",
+    "imageLocation" : "/images/Cards/Cuba.png",
+    "background" : "/images/Backgrounds/CubaBlured.png",
     "name": "Cuba",
     "countryName": "Cuba",
     "cardColor": "purple",
@@ -123,11 +123,11 @@
     "pathToMemorie": "",
     "explanation": "",
     "endingWord": "",
-    "flag": "/images/CubaFlag.png"
+    "flag": "/images/Flags/CubaFlag.png"
   },
   "Luxembourg" : {
-    "imageLocation" : "/images/Luxembourg.png",
-    "background" : "/images/LuxembourgBlured.png",
+    "imageLocation" : "/images/Cards/Luxembourg.png",
+    "background" : "/images/Backgrounds/LuxembourgBlured.png",
     "name": "Luxembourg",
     "countryName": "Luxembourg",
     "cardColor": "pink",
@@ -137,11 +137,11 @@
     "pathToMemorie": "",
     "explanation": "",
     "endingWord": "",
-    "flag": "/images/LuxembourgFlag.png"
+    "flag": "/images/Flags/LuxembourgFlag.png"
   },
   "England" : {
-    "imageLocation" : "/images/England.png",
-    "background" : "/images/EnglandBlured.png",
+    "imageLocation" : "/images/Cards/England.png",
+    "background" : "/images/Backgrounds/EnglandBlured.png",
     "name": "London",
     "countryName": "England",
     "cardColor": "brown",
@@ -151,11 +151,11 @@
     "pathToMemorie": "",
     "explanation": "",
     "endingWord": "",
-    "flag": "/images/EnglandFlag.png"
+    "flag": "/images/Flags/EnglandFlag.png"
   },
   "Tanzania" : {
-    "imageLocation" : "/images/Tanzania.png",
-    "background" : "/images/TanzaniaBlured.png",
+    "imageLocation" : "/images/Cards/Tanzania.png",
+    "background" : "/images/Backgrounds/TanzaniaBlured.png",
     "name": "Tanzania",
     "countryName": "South Africa",
     "cardColor": "grey",
@@ -165,11 +165,11 @@
     "pathToMemorie": "",
     "explanation": "Meeting some people from there called \"maasaï\"",
     "endingWord": "mambo poa asante sana tu tuana",
-    "flag": "/images/TanzaniaFlag.png"
+    "flag": "/images/Flags/TanzaniaFlag.png"
   },
   "Amsterdam" : {
-    "imageLocation" : "/images/Amsterdam.png",
-    "background" : "/images/AmsterdamBlured.png",
+    "imageLocation" : "/images/Cards/Amsterdam.png",
+    "background" : "/images/Backgrounds/AmsterdamBlured.png",
     "name": "Amsterdam",
     "countryName": "Netherlands",
     "cardColor": "red",
@@ -179,6 +179,6 @@
     "pathToMemorie": "",
     "explanation": "",
     "endingWord": "",
-    "flag": "/images/NetherlandsFlag.png"
+    "flag": "/images/Flags/NetherlandsFlag.png"
   }
 }
