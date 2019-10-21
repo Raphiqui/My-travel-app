@@ -6,7 +6,6 @@ export default class About extends Component {
     constructor(props) {
         super(props);
         this.state = {};
-        console.log('INTO ABOUT:', props)
     }
 
     openNotification = () => {
@@ -24,10 +23,7 @@ export default class About extends Component {
             style: {
                 width: 600,
                 marginLeft: 335 - 600,
-            },
-            onClick: () => {
-                console.log('Notification Clicked!');
-            },
+            }
         });
     };
 

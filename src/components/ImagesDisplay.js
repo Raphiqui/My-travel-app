@@ -14,7 +14,6 @@ export default class ImagesDisplay extends Component {
     }
 
     render() {
-        console.log('PROPS INTO IMAGESDISPLAY:', this.props);
         const {cardSelected, imagesTemplate, showDetails} = this.props;
 
         return (
@@ -31,9 +30,10 @@ export default class ImagesDisplay extends Component {
 
                         </div>
 
-                    :   <Card.Group fluid={true} style={{backgroundColor: "#5E7FA8", paddingLeft: "5px", paddingTop: "60px"}}>
+                    :   <Card.Group style={{backgroundColor: "#5E7FA8", paddingLeft: "5px", paddingTop: "60px"}}>
                             {_.map(imagesTemplate, (item) => {
                                 return(<Cards
+                                    key={item["countryName"]}
                                     item={item}
                                     showDetails={showDetails}
                                 />)
