@@ -6,7 +6,6 @@ export default class ImagesDisplayItem1 extends Component {
     constructor(props) {
         super(props);
         this.state = {};
-        console.log('INTO ITEM1')
     }
 
     render() {

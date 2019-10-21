@@ -6,7 +6,6 @@ export default class Header extends Component {
     constructor(props) {
         super(props);
         this.state = {};
-        console.log('INTO HEADER:', props)
     }
 
     render() {
@@ -24,8 +23,6 @@ export default class Header extends Component {
                 </Menu.Item>
 
                 <About/>
-
-                {/*<Menu.Item as={"h3"}><b>My travel app</b></Menu.Item>*/}
 
             </Menu>
         )
