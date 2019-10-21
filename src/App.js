@@ -11,12 +11,8 @@ export default class App extends Component {
         isDetailOpen: false,
         cardSelected: null};
 
-    // componentDidMount(){
-    //     this.showMessage();
-    // }
-
-    handleItemClick = (e, { name }) => {
-        this.setState({ activeItem: name, isDetailOpen: false });
+    handleItemClick = () => {
+        this.setState({ isDetailOpen: false });
     };
 
     showDetails = (event) => {
@@ -34,12 +30,12 @@ export default class App extends Component {
     handleContextRef = contextRef => this.setState({ contextRef });
 
     render() {
-        const { activeItem, isDetailOpen, cardSelected } = this.state;
+        const { isDetailOpen, cardSelected } = this.state;
 
         return (
             <div className="App" ref={this.handleContextRef}>
 
-                <Header handleItemClick={this.handleItemClick} activeItem={activeItem}/>
+                <Header handleItemClick={this.handleItemClick}/>
 
                 <ImagesDisplay
                     cardSelected={cardSelected}
